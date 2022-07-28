@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="styles/global.css" />
     <link rel="stylesheet" href="styles/room.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
     <title>Rocket.Q - Perguntas e Respostas</title>
   </head>
   <body>
@@ -63,10 +64,78 @@
             <div class="question-wrapper">
               <div class="question-content">
                 <div class="user">
-                  <img src="assets/avatar.svg" alt="Avatar" />
+                  <img src="assets/user.svg" alt="Avatar" />
                 </div>
                 <div class="question">
-                  <p>Qual a diferença entre const, var e let no JavaScript</p>
+                  <p>Qual a diferença entre const, var e let no JavaScript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="chech">
+                  <img src="assets/check.svg" alt="Marcar como lida" />
+                  Marcar como lida
+                </a>
+                <a href="" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/user.svg" alt="Avatar" />
+                </div>
+                <div class="question">
+                  <p>O que é TypeScript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="#" class="chech">
+                  <img src="assets/check.svg" alt="Marcar como lida" />
+                  Marcar como lida
+                </a>
+                <a href="" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper read">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/user.svg" alt="Avatar" />
+                </div>
+                <div class="question">
+                  <p>O que é JavaScript?</p>
+                </div>
+              </div>
+              <div class="actions">
+                <a href="" class="delete">
+                  <img src="assets/trash.svg" alt="Excluir" />
+                  Excluir
+                </a>
+              </div>
+            </div>
+
+            <div class="question-wrapper">
+              <div class="question-content">
+                <div class="user">
+                  <img src="assets/user.svg" alt="Avatar" />
+                </div>
+                <div class="question">
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Sint in illo corporis cumque minima magnam quidem! Quasi
+                    corporis iste necessitatibus. Vero quasi velit expedita
+                    assumenda distinctio modi eveniet asperiores iste. Lorem
+                    ipsum dolor sit amet consectetur adipisicingelit. Adipisci
+                    labore molestiae est, perferendis molestias provident
+                    debitis, et nostrum veniam, expedita sed ut iusto aut
+                    ratione ipsam harum officiis voluptate libero?
+                  </p>
                 </div>
               </div>
               <div class="actions">
@@ -83,6 +152,30 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <h2>Excluir Pergunta</h2>
+        <p>Tem certeza que você deseja excluir esta pergunta?</p>
+
+        <form action="">
+          <label for-id="password" class="sr-only"
+            >Digite sua senha admin</label
+          >
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Digite sua senha"
+          />
+          <div class="buttons">
+            <div class="button grey">Cancelar</div>
+            <button class="red">Sim, excluir</button>
+          </div>
+        </form>
+      </div>
     </div>
   </body>
 </html>
