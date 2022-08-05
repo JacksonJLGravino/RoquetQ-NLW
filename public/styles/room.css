@@ -142,3 +142,23 @@
 .question-wrapper.read .question-content .user {
   background: var(--grey-blue);
 }
+
+.no-questions {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.no-questions img {
+  max-width: 100%;
+  margin-bottom: 1.2rem;
+}
+
+.no-questions h3 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.no-questions p {
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+  line-height: 1.9rem;
+}
