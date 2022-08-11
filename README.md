@@ -1,6 +1,6 @@
 # NLW_RoquetQ
 <div style="max-width: 500px">
-  <img src="capa.png" />
+  <img src="Capa.png" />
 </div>
 
 ## 🚀 Tecnologias
